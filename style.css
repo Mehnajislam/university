@@ -1,0 +1,70 @@
+.hero {
+    background: url(download\ \(1\).jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #333;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+/* Reset some default Bootstrap margins/paddings */
+body {
+    font-family: 'Arial', sans-serif; /* Customize font */
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Soft background color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; /* Custom heading font */
+    color: #004080; /* Dark blue for headings */
+}
+
+p {
+    color: #333;
+}
+
+a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #003366; /* Darker shade on hover */
+    text-decoration: underline;
+}
+
+/* Color Variables */
+:root {
+    --primary-color: #004080;  /* Main university color */
+    --secondary-color: #ffcc00; /* Secondary color */
+    --background-color: #06396b; /* Light background color */
+    --text-color: #333; /* Default text color */
+}
+/* Navbar styling */
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--secondary-color);
+}
